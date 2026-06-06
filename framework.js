@@ -1,14 +1,15 @@
 maplebirch.tool.onInit(() => {
   V.options ??= {};
-  V.options.noBusHarassment ??= {};
-  if (V.options.noBusHarassment.normal === undefined) {
-    V.options.noBusHarassment.normal = true;
+  V.options.maplebirch ??= {};
+  V.options.maplebirch.noBusHarassment ??= {};
+  if (V.options.maplebirch.noBusHarassment.normal === undefined) {
+    V.options.maplebirch.noBusHarassment.normal = true;
   }
-  if (V.options.noBusHarassment.pregnancy === undefined) {
-    V.options.noBusHarassment.pregnancy = true;
+  if (V.options.maplebirch.noBusHarassment.pregnancy === undefined) {
+    V.options.maplebirch.noBusHarassment.pregnancy = true;
   }
-  if (V.options.noBusHarassment.passout === undefined) {
-    V.options.noBusHarassment.passout = true;
+  if (V.options.maplebirch.noBusHarassment.passout === undefined) {
+    V.options.maplebirch.noBusHarassment.passout = true;
   }
 });
 

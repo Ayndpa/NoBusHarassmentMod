@@ -6,17 +6,17 @@
   <div class='settingsGrid'>
     <div class='settingsToggleItem'>
       <label>
-        <<checkbox "$options.noBusHarassment.normal" false true autocheck>> <<lanSwitch 'Disable regular bus harassment' '关闭普通乘车骚扰'>>
+        <<checkbox "$options.maplebirch.noBusHarassment.normal" false true autocheck>> <<lanSwitch 'Disable regular bus harassment' '关闭普通乘车骚扰'>>
       </label>
     </div>
     <div class='settingsToggleItem'>
       <label>
-        <<checkbox "$options.noBusHarassment.pregnancy" false true autocheck>> <<lanSwitch 'Disable pregnancy touch harassment' '关闭怀孕触摸骚扰'>>
+        <<checkbox "$options.maplebirch.noBusHarassment.pregnancy" false true autocheck>> <<lanSwitch 'Disable pregnancy touch harassment' '关闭怀孕触摸骚扰'>>
       </label>
     </div>
     <div class='settingsToggleItem'>
       <label>
-        <<checkbox "$options.noBusHarassment.passout" false true autocheck>> <<lanSwitch 'Disable sleep/passout bus harassment' '关闭乘车起冲突/睡眠/晕倒骚扰'>>
+        <<checkbox "$options.maplebirch.noBusHarassment.passout" false true autocheck>> <<lanSwitch 'Disable sleep/passout bus harassment' '关闭乘车起冲突/睡眠/晕倒骚扰'>>
       </label>
     </div>
   </div>
