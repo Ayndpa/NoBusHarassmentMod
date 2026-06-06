@@ -1,15 +1,14 @@
 maplebirch.tool.onInit(() => {
+  // 使用普通 $options 变量，随游戏存档自动保存，无需依赖框架 LocalStorage
   V.options ??= {};
-  V.options.maplebirch ??= {};
-  V.options.maplebirch.noBusHarassment ??= {};
-  if (V.options.maplebirch.noBusHarassment.normal === undefined) {
-    V.options.maplebirch.noBusHarassment.normal = true;
+  if (V.options.noBusHarassmentNormal === undefined) {
+    V.options.noBusHarassmentNormal = true;
   }
-  if (V.options.maplebirch.noBusHarassment.pregnancy === undefined) {
-    V.options.maplebirch.noBusHarassment.pregnancy = true;
+  if (V.options.noBusHarassmentPregnancy === undefined) {
+    V.options.noBusHarassmentPregnancy = true;
   }
-  if (V.options.maplebirch.noBusHarassment.passout === undefined) {
-    V.options.maplebirch.noBusHarassment.passout = true;
+  if (V.options.noBusHarassmentPassout === undefined) {
+    V.options.noBusHarassmentPassout = true;
   }
 });
 
