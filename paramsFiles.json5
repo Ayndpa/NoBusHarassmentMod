@@ -1,0 +1,20 @@
+[
+  {
+    "passage": "Bus seat",
+    "findString": "<<if dangerEvent()>>",
+    "replace": "<<if dangerEvent() and !$noBusHarassment.normal>>",
+    "debug": true
+  },
+  {
+    "passage": "Bus Pregnancy Touch",
+    "findString": "<<if dangerEvent() and $rng gte 91>>",
+    "replace": "<<if dangerEvent() and $rng gte 91 and !$noBusHarassment.pregnancy>>",
+    "debug": true
+  },
+  {
+    "passage": "Passout bus",
+    "findString": "<<if dangerEvent()>>",
+    "replace": "<<if dangerEvent() and !$noBusHarassment.passout>>",
+    "debug": true
+  }
+]
